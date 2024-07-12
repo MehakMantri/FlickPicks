@@ -9,7 +9,7 @@ const NavBar = ({ isHome }) => {
     return (
         <div className="container header">
             <Link to="/ ">
-                <img className="logo" alt="logo" />
+                <img src={logo} className="logo" alt="logo" />
             </Link>
             {/* if isHome then the button is the github button else its the home button*/}
             {isHome ? (
