@@ -1,7 +1,7 @@
 // NavBar Component
 import { Link } from "react-router-dom";
 import "./styles/NavBarStyles.css";
-import Logo from "./images/logo.png";
+import Logo from "./images/Logo.png";
 
 const NavBar = ({ isHome }) => {
     const gitRepoLink =
