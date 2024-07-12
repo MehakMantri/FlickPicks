@@ -1,7 +1,7 @@
 // NavBar Component
 import { Link } from "react-router-dom";
 import "./styles/NavBarStyles.css";
-import logo from "./images/logo.png";
+import Logo from "./images/logo.png";
 
 const NavBar = ({ isHome }) => {
     const gitRepoLink =
@@ -9,7 +9,7 @@ const NavBar = ({ isHome }) => {
     return (
         <div className="container header">
             <Link to="/ ">
-                <img src={logo} className="logo" alt="logo" />
+                <img src={Logo} className="logo" alt="logo" />
             </Link>
             {/* if isHome then the button is the github button else its the home button*/}
             {isHome ? (
