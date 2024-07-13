@@ -21,7 +21,7 @@ const Footer = () => {
                         <i className="fa-brands fa-github"></i>
                     </a>
                     <a
-                        href="https://www.instagram.com/itsmehak_527/"
+                        href="https://x.com/itsmehak_527"
                         target="_blank"
                         rel="noreferrer"
                     >
