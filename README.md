@@ -1,5 +1,6 @@
 
-# React.js + Flask Movie Recommendation System
+# FlickPicks
+
 ![Python](https://img.shields.io/badge/Python-3.9.6-blueviolet)     ![Framework](https://img.shields.io/badge/Framework-Flask-red) ![Frontend](https://img.shields.io/badge/Frontend-React-green) ![API](https://img.shields.io/badge/API-TMDB-fcba03)
 
 ## Overview  📋
@@ -8,9 +9,6 @@
 3. Based on the searched movie users are recommended movie which are fetched for the python-flask backend that uses local dataset and content-based filtering algorithm for recommendation.
 4. The web-app also allows user to get top movies filtered by genre (these are also fetched using an TMDB api) . 
 5. The web app is responsive and can be used on mobile devies.  
-
-![Maintenance](https://img.shields.io/badge/maintained-yes-green.svg) ![Website shields.io](https://img.shields.io/badge/website-up-yellow)
-
 
 ----
 
@@ -41,15 +39,6 @@
     ```shell
     $ npm start
     ```
-     
-   
-
-
----
-## Architecture :page_facing_up:
-
-
-![image](https://user-images.githubusercontent.com/74367889/170507933-fabe5dcc-52a0-476f-8650-c454a433bc48.png)
 
 ---
 ## Algorithm For Recommendation
